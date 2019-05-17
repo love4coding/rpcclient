@@ -26,7 +26,7 @@ public class CommonController {
     @RequestMapping(value = "/hello")
     @ResponseBody
     public String hello(@RequestParam("name") String name) {
-        System.out.println("enter hello");
+        System.out.println("enter hello!!");
         return commonService.hello(name);
     }
 }
